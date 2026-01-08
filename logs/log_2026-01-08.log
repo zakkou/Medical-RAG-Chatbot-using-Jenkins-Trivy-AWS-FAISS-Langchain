@@ -1,0 +1,52 @@
+2026-01-08 23:26:19,477 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.3:5000
+2026-01-08 23:26:19,477 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-08 23:26:43,357 - INFO - 127.0.0.1 - - [08/Jan/2026 23:26:43] "GET / HTTP/1.1" 200 -
+2026-01-08 23:26:43,513 - INFO - 127.0.0.1 - - [08/Jan/2026 23:26:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-08 23:26:50,904 - INFO - Loading vector store for context
+2026-01-08 23:26:50,914 - INFO - Intializing our Huggingface embedding model
+2026-01-08 23:26:50,916 - INFO - Use pytorch device_name: cpu
+2026-01-08 23:26:50,916 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-08 23:26:53,900 - INFO - Huggingface embedding model loaded sucesfully....
+2026-01-08 23:26:53,901 - INFO - Loading existing vectorstore...
+2026-01-08 23:26:53,905 - INFO - Loading faiss with AVX512 support.
+2026-01-08 23:26:53,905 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-01-08 23:26:53,905 - INFO - Loading faiss with AVX2 support.
+2026-01-08 23:26:54,082 - INFO - Successfully loaded faiss with AVX2 support.
+2026-01-08 23:26:54,150 - INFO - Loading LLM from HuggingFace
+2026-01-08 23:26:54,269 - INFO - LLM loaded sucesfully...
+2026-01-08 23:26:54,272 - INFO - Sucesfully created the QA chain
+2026-01-08 23:26:54,504 - INFO - 127.0.0.1 - - [08/Jan/2026 23:26:54] "POST / HTTP/1.1" 200 -
+2026-01-08 23:43:06,719 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.3:5000
+2026-01-08 23:43:06,719 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-08 23:43:16,250 - INFO - Loading vector store for context
+2026-01-08 23:43:16,250 - INFO - Intializing our Huggingface embedding model
+2026-01-08 23:43:16,251 - INFO - Use pytorch device_name: cpu
+2026-01-08 23:43:16,251 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-08 23:43:18,973 - INFO - Huggingface embedding model loaded sucesfully....
+2026-01-08 23:43:18,973 - INFO - Loading existing vectorstore...
+2026-01-08 23:43:18,979 - INFO - Loading faiss with AVX512 support.
+2026-01-08 23:43:18,979 - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-01-08 23:43:18,979 - INFO - Loading faiss with AVX2 support.
+2026-01-08 23:43:19,010 - INFO - Successfully loaded faiss with AVX2 support.
+2026-01-08 23:43:19,063 - INFO - Loading LLM from HuggingFace
+2026-01-08 23:43:19,185 - INFO - LLM loaded sucesfully...
+2026-01-08 23:43:19,187 - INFO - Sucesfully created the QA chain
+2026-01-08 23:43:19,367 - INFO - 127.0.0.1 - - [08/Jan/2026 23:43:19] "POST / HTTP/1.1" 200 -
+2026-01-08 23:43:25,544 - INFO - Loading vector store for context
+2026-01-08 23:43:25,544 - INFO - Intializing our Huggingface embedding model
+2026-01-08 23:43:25,545 - INFO - Use pytorch device_name: cpu
+2026-01-08 23:43:25,546 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-01-08 23:43:28,216 - INFO - Huggingface embedding model loaded sucesfully....
+2026-01-08 23:43:28,216 - INFO - Loading existing vectorstore...
+2026-01-08 23:43:28,241 - INFO - Loading LLM from HuggingFace
+2026-01-08 23:43:28,242 - INFO - LLM loaded sucesfully...
+2026-01-08 23:43:28,242 - INFO - Sucesfully created the QA chain
+2026-01-08 23:43:28,264 - INFO - 127.0.0.1 - - [08/Jan/2026 23:43:28] "POST / HTTP/1.1" 200 -

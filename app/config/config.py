@@ -1,7 +1,7 @@
 import os
 HF_TOKEN = os.environ.get("HF_TOKEN")
 
-HUGGINGFACE_REPO_ID = "tiiuae/falcon-7b-instruct"
+HUGGINGFACE_REPO_ID = "openai/gpt-oss-20b"
 DB_FAISS_PATH="vectorstore/db_faiss"
 DATA_PATH="data/"
 CHUNK_SIZE=500
